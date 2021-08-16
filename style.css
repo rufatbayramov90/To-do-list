@@ -1,0 +1,140 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url(../assets/bodybg.jpg) ;
+    display: flex;
+    justify-content: space-evenly;
+}
+.data-reading,.data-entry{
+    display: inline-block;
+    width: 450px;
+    min-height: 80%;
+    background-color: rgba(240, 108, 134, 0.733);
+    margin: 50px 0;
+    padding: 20px 10px;
+    box-shadow: 0 2px 10px 2px rgb(231, 234, 236);
+}
+.dataEvent{
+    display: inline-block;
+    margin: 50px 0;
+    min-height: 80%;
+    width: 250px;
+    background-color: rgba(240, 108, 134, 0.733);
+}
+.data-reading{
+    border-bottom-right-radius: 80px;
+    border-top-right-radius: 80px ;
+    padding: 20px 40px;
+    font-size: 25px;
+}
+.data-entry{
+    border-bottom-left-radius: 80px;
+    border-top-left-radius: 80px ;
+}
+.form{
+    margin: 20px 10px;
+    padding: 20px 10px;
+    border-bottom-left-radius: 80px;
+    border-top-left-radius: 80px ;
+    height: 80%;
+}
+label{
+    margin-left: 10px;
+    font-family: 'Architects Daughter', cursive;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    letter-spacing: 2px;
+    border: none;
+    outline: none;
+}
+h3{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+}
+#form-btn{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    color:rgba(240, 108, 134, 0.733) ;
+    font-weight: 700;
+}
+#form-btn:hover{
+    color: white;
+    background-color: rgba(250, 150, 170, 0.733);
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+.recordInformation{
+    background-color: white;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 2px 10px;
+}
+#info-page{
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    z-index: 333;
+    background-color: rgb(59, 57, 57);
+    color: white;
+    width: 700px;
+    height: 450px;
+    border-radius: 5px;
+    padding: 15px 10px;
+    display: block;
+}
+#info-page-title{
+    margin: 15px 10px;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+}
+#info-page-main{
+    margin-top: 150px;
+    color: rgb(170, 165, 165);
+    padding: 30px;
+    font-size: 20px;
+}
+#btn-sil{
+    margin-left: 300px;
+    color: white;
+    background-color: rgb(168, 96, 96);
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+#btn-sil:hover{
+    padding: 5px 15px;
+    transition: .6s ease-in-out;
+}
+#delete-info{
+    margin-top: 0;
+    padding: 2px 5px;
+}
+#delete-info:hover{
+    box-shadow: 0 2px 5px 1px white;
+}
+.event-item{
+    background-color: rgb(209, 203, 203);
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+

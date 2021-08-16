@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" id="container">
+<!-- memorization of information -->
+        <div id="info-page" style="display: none;"></div>
+        <div class="dataEvent" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<!-- reading information -->
+        <div class="data-reading" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<!-- entering information -->
+        <div class="data-entry">
+            <div class="form">
+                <h3>My Notes App</h3>
+                <label for="formEventTitle">NOTE</label>
+                <input type="text" placeholder="Note Title" id="formEventTitle">
+                <label for="formEventText">MAIN</label>
+                <textarea id="formEventText" placeholder="Note Details" rows="8" cols="80"></textarea>
+                <input type="date" id="set-date">
+                <input type="time" id="set-time">  
+                <button id="form-btn">Add Note</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
